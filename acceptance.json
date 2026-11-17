@@ -1,0 +1,51 @@
+{
+  "admission_observed": true,
+  "advanced_base": "36538405a5c40a211b8a1d2ceef0afb6b400555c",
+  "controller_sha256": "sha256:29edb514f927ecd43461847412ad476ec673b8e2cbaf8059b712d130348d6435",
+  "controller_source_head": "72e2c7e248d6805a14700f21a5189fb9f90c2d6c",
+  "current_admission_applicable": false,
+  "current_head": "3363386f9400e467faaa696c83aaf04e92053b1a",
+  "first_admitted_head": "20c062217a073ff867b779c2d116e956a9dae877",
+  "merge_authorized": false,
+  "negative_controls": {
+    "created_not_admitted": [
+      "PR_CREATED_NOT_ADMITTED",
+      "PUBLICATION_INCOMPLETE",
+      "VALIDATION_HISTORY",
+      "WORKUNIT_PROOF_STALE"
+    ],
+    "invalid_publication": [
+      "VALIDATE_TIMEOUT_OR_LOCK"
+    ],
+    "invalid_source": [
+      "NOT_READY",
+      "READINESS_BLOCKED",
+      "STATE_COMMIT"
+    ],
+    "repeated_stale_base": [
+      "READINESS_BLOCKED",
+      "STALE_ACCEPTED_BASE",
+      "STATE_COMMIT"
+    ],
+    "stale_base": [
+      "PUBLICATION_NOT_READY",
+      "READINESS_BLOCKED",
+      "STALE_ACCEPTED_BASE"
+    ],
+    "stale_source": [
+      "GOVERNANCE_CHECKPOINT_MISSING"
+    ]
+  },
+  "pr_base_after_target_advance": "07278b0b6a6d1b60913ebd51b371d3a721c949bb",
+  "pr_url": "https://github.com/alexhraber/decapod-admission-acceptance-20261117-1747-05/pull/1",
+  "quarantine_confirmed": true,
+  "receipts": [
+    "repaired-receipt.json",
+    "fresh-after-quarantine-receipt.json",
+    "fresh-after-stale-source-receipt.json"
+  ],
+  "repository": "alexhraber/decapod-admission-acceptance-20261117-1747-05",
+  "schema": "decapod.real-forge-acceptance.v1",
+  "validated_base": "07278b0b6a6d1b60913ebd51b371d3a721c949bb",
+  "validated_head": "3363386f9400e467faaa696c83aaf04e92053b1a"
+}
